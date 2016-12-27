@@ -1,8 +1,6 @@
 
 package com.uics.asset;
 
-import com.uics.asset.entity.Account;
-import com.uics.asset.entity.Message;
 import com.alibaba.dubbo.common.serialize.support.SerializationOptimizer;
 
 import java.util.Collection;
@@ -18,8 +16,7 @@ public class SerializationOptimizerImpl implements SerializationOptimizer {
 
     public Collection<Class> getSerializableClasses() {
         List<Class> classes = new LinkedList<Class>();
-        classes.add(Account.class);
-        classes.add(Message.class);
+
         return classes;
     }
 }

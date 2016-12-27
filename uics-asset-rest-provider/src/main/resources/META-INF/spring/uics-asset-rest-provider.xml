@@ -55,4 +55,52 @@
 
     <dubbo:reference id="messageService" interface="com.uics.asset.service.MessageService"/>
     <!-- message api v2 -->
+
+	<!--配置信息 api -->
+    <dubbo:service interface="com.uics.asset.facade.CiRestService" ref="ciRestService"
+                   protocol="rest" validation="true" timeout="2000" connections="100"/>
+
+    <bean id="ciRestService" class="com.uics.asset.facade.CiRestServiceImpl">
+        <property name="ciService" ref="ciService"/>
+    </bean>
+
+    <dubbo:reference id="ciService" interface="com.uics.asset.service.CiService"/>
+    <!--配置信息 api -->
+
+
+	<!--属性信息 api -->
+    <dubbo:service interface="com.uics.asset.facade.AttributeRestService" ref="attributeRestService"
+                   protocol="rest" validation="true" timeout="2000" connections="100"/>
+
+    <bean id="attributeRestService" class="com.uics.asset.facade.AttributeRestServiceImpl">
+        <property name="attributeService" ref="attributeService"/>
+    </bean>
+
+    <dubbo:reference id="attributeService" interface="com.uics.asset.service.AttributeService"/>
+    <!--属性信息 api -->
+
+
+	<!--事务信息 api -->
+    <dubbo:service interface="com.uics.asset.facade.CmdbTxRestService" ref="cmdbTxRestService"
+                   protocol="rest" validation="true" timeout="2000" connections="100"/>
+
+    <bean id="cmdbTxRestService" class="com.uics.asset.facade.CmdbTxRestServiceImpl">
+        <property name="cmdbTxService" ref="cmdbTxService"/>
+    </bean>
+
+    <dubbo:reference id="cmdbTxService" interface="com.uics.asset.service.CmdbTxService"/>
+    <!--事务信息 api -->
+
+
+	<!--变更信息 api -->
+    <dubbo:service interface="com.uics.asset.facade.RfcRestService" ref="rfcRestService"
+                   protocol="rest" validation="true" timeout="2000" connections="100"/>
+
+    <bean id="rfcRestService" class="com.uics.asset.facade.RfcRestServiceImpl">
+        <property name="rfcService" ref="rfcService"/>
+    </bean>
+
+    <dubbo:reference id="rfcService" interface="com.uics.asset.service.RfcService"/>
+    <!--变更信息 api -->
+
 </beans>

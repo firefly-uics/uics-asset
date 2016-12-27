@@ -13,4 +13,24 @@
     <!--<dubbo:monitor protocol="registry"/>-->
 
     <dubbo:reference id="accountService" interface="com.uics.asset.service.AccountService"/>
+
+	<!-- 配置信息 service -->
+    <dubbo:reference id="ciService" interface="com.uics.asset.service.CiService"/>
+    <!-- 配置信息 service -->
+
+
+	<!-- 属性信息 service -->
+    <dubbo:reference id="attributeService" interface="com.uics.asset.service.AttributeService"/>
+    <!-- 属性信息 service -->
+
+
+	<!-- 事务信息 service -->
+    <dubbo:reference id="cmdbTxService" interface="com.uics.asset.service.CmdbTxService"/>
+    <!-- 事务信息 service -->
+
+
+	<!-- 变更信息 service -->
+    <dubbo:reference id="rfcService" interface="com.uics.asset.service.RfcService"/>
+    <!-- 变更信息 service -->
+
 </beans>

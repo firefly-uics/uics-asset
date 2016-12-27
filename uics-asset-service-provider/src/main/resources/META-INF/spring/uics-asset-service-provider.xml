@@ -40,4 +40,36 @@
 
     <bean id="messageService" class="com.uics.asset.service.MessageServiceImpl"/>
     <!-- message service v2 -->
+
+	<!-- 配置信息 api -->
+    <bean id="ciService" class="com.uics.asset.service.CiServiceImpl"/>
+
+    <dubbo:service interface="com.uics.asset.service.CiService" ref="ciService"
+                   protocol="dubbo" validation="true" timeout="2000" connections="100"/>
+    <!-- 配置信息 api -->
+
+
+	<!-- 属性信息 api -->
+    <bean id="attributeService" class="com.uics.asset.service.AttributeServiceImpl"/>
+
+    <dubbo:service interface="com.uics.asset.service.AttributeService" ref="attributeService"
+                   protocol="dubbo" validation="true" timeout="2000" connections="100"/>
+    <!-- 属性信息 api -->
+
+
+	<!-- 事务信息 api -->
+    <bean id="cmdbTxService" class="com.uics.asset.service.CmdbTxServiceImpl"/>
+
+    <dubbo:service interface="com.uics.asset.service.CmdbTxService" ref="cmdbTxService"
+                   protocol="dubbo" validation="true" timeout="2000" connections="100"/>
+    <!-- 事务信息 api -->
+
+
+	<!-- 变更信息 api -->
+    <bean id="rfcService" class="com.uics.asset.service.RfcServiceImpl"/>
+
+    <dubbo:service interface="com.uics.asset.service.RfcService" ref="rfcService"
+                   protocol="dubbo" validation="true" timeout="2000" connections="100"/>
+    <!-- 变更信息 api -->
+
 </beans>
