@@ -103,4 +103,16 @@
     <dubbo:reference id="rfcService" interface="com.uics.asset.service.RfcService"/>
     <!--变更信息 api -->
 
+
+	<!--配置信息 api -->
+    <dubbo:service interface="com.uics.asset.facade.IRestService" ref="iRestService"
+                   protocol="rest" validation="true" timeout="2000" connections="100"/>
+
+    <bean id="iRestService" class="com.uics.asset.facade.IRestServiceImpl">
+        <property name="iService" ref="iService"/>
+    </bean>
+
+    <dubbo:reference id="iService" interface="com.uics.asset.service.IService"/>
+    <!--配置信息 api -->
+
 </beans>

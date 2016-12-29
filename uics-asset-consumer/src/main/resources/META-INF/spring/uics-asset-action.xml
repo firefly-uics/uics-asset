@@ -107,4 +107,200 @@
     </bean>
     <!-- 变更信息 action -->
 
+
+	<!-- 配置信息 action -->
+    <bean class="com.uics.asset.consumer.CiDemoAction" init-method="start">
+        <property name="ciService" ref="ciService"/>
+    </bean>
+    <!-- 配置信息 action -->
+
+
+	<!-- 属性信息 action -->
+    <bean class="com.uics.asset.consumer.AttributeDemoAction" init-method="start">
+        <property name="attributeService" ref="attributeService"/>
+    </bean>
+    <!-- 属性信息 action -->
+
+
+	<!-- 事务信息 action -->
+    <bean class="com.uics.asset.consumer.CmdbTxDemoAction" init-method="start">
+        <property name="cmdbTxService" ref="cmdbTxService"/>
+    </bean>
+    <!-- 事务信息 action -->
+
+
+	<!-- 变更信息 action -->
+    <bean class="com.uics.asset.consumer.RfcDemoAction" init-method="start">
+        <property name="rfcService" ref="rfcService"/>
+    </bean>
+    <!-- 变更信息 action -->
+
+
+	<!-- 配置信息 action -->
+    <bean class="com.uics.asset.consumer.CiDemoAction" init-method="start">
+        <property name="ciService" ref="ciService"/>
+    </bean>
+    <!-- 配置信息 action -->
+
+
+	<!-- 属性信息 action -->
+    <bean class="com.uics.asset.consumer.AttributeDemoAction" init-method="start">
+        <property name="attributeService" ref="attributeService"/>
+    </bean>
+    <!-- 属性信息 action -->
+
+
+	<!-- 事务信息 action -->
+    <bean class="com.uics.asset.consumer.CmdbTxDemoAction" init-method="start">
+        <property name="cmdbTxService" ref="cmdbTxService"/>
+    </bean>
+    <!-- 事务信息 action -->
+
+
+	<!-- 变更信息 action -->
+    <bean class="com.uics.asset.consumer.RfcDemoAction" init-method="start">
+        <property name="rfcService" ref="rfcService"/>
+    </bean>
+    <!-- 变更信息 action -->
+
+
+	<!-- 配置信息 action -->
+    <bean class="com.uics.asset.consumer.CiDemoAction" init-method="start">
+        <property name="ciService" ref="ciService"/>
+    </bean>
+    <!-- 配置信息 action -->
+
+
+	<!-- 属性信息 action -->
+    <bean class="com.uics.asset.consumer.AttributeDemoAction" init-method="start">
+        <property name="attributeService" ref="attributeService"/>
+    </bean>
+    <!-- 属性信息 action -->
+
+
+	<!-- 事务信息 action -->
+    <bean class="com.uics.asset.consumer.CmdbTxDemoAction" init-method="start">
+        <property name="cmdbTxService" ref="cmdbTxService"/>
+    </bean>
+    <!-- 事务信息 action -->
+
+
+	<!-- 变更信息 action -->
+    <bean class="com.uics.asset.consumer.RfcDemoAction" init-method="start">
+        <property name="rfcService" ref="rfcService"/>
+    </bean>
+    <!-- 变更信息 action -->
+
+
+	<!-- 配置信息 action -->
+    <bean class="com.uics.asset.consumer.IDemoAction" init-method="start">
+        <property name="iService" ref="iService"/>
+    </bean>
+    <!-- 配置信息 action -->
+
+
+	<!-- 属性信息 action -->
+    <bean class="com.uics.asset.consumer.AttributeDemoAction" init-method="start">
+        <property name="attributeService" ref="attributeService"/>
+    </bean>
+    <!-- 属性信息 action -->
+
+
+	<!-- 事务信息 action -->
+    <bean class="com.uics.asset.consumer.CmdbTxDemoAction" init-method="start">
+        <property name="cmdbTxService" ref="cmdbTxService"/>
+    </bean>
+    <!-- 事务信息 action -->
+
+
+	<!-- 变更信息 action -->
+    <bean class="com.uics.asset.consumer.RfcDemoAction" init-method="start">
+        <property name="rfcService" ref="rfcService"/>
+    </bean>
+    <!-- 变更信息 action -->
+
+
+	<!-- 配置信息 action -->
+    <bean class="com.uics.asset.consumer.iDemoAction" init-method="start">
+        <property name="iService" ref="iService"/>
+    </bean>
+    <!-- 配置信息 action -->
+
+
+	<!-- 属性信息 action -->
+    <bean class="com.uics.asset.consumer.AttributeDemoAction" init-method="start">
+        <property name="attributeService" ref="attributeService"/>
+    </bean>
+    <!-- 属性信息 action -->
+
+
+	<!-- 事务信息 action -->
+    <bean class="com.uics.asset.consumer.CmdbTxDemoAction" init-method="start">
+        <property name="cmdbTxService" ref="cmdbTxService"/>
+    </bean>
+    <!-- 事务信息 action -->
+
+
+	<!-- 变更信息 action -->
+    <bean class="com.uics.asset.consumer.RfcDemoAction" init-method="start">
+        <property name="rfcService" ref="rfcService"/>
+    </bean>
+    <!-- 变更信息 action -->
+
+
+	<!-- 配置信息 action -->
+    <bean class="com.uics.asset.consumer.iDemoAction" init-method="start">
+        <property name="iService" ref="iService"/>
+    </bean>
+    <!-- 配置信息 action -->
+
+
+	<!-- 属性信息 action -->
+    <bean class="com.uics.asset.consumer.AttributeDemoAction" init-method="start">
+        <property name="attributeService" ref="attributeService"/>
+    </bean>
+    <!-- 属性信息 action -->
+
+
+	<!-- 事务信息 action -->
+    <bean class="com.uics.asset.consumer.CmdbTxDemoAction" init-method="start">
+        <property name="cmdbTxService" ref="cmdbTxService"/>
+    </bean>
+    <!-- 事务信息 action -->
+
+
+	<!-- 变更信息 action -->
+    <bean class="com.uics.asset.consumer.RfcDemoAction" init-method="start">
+        <property name="rfcService" ref="rfcService"/>
+    </bean>
+    <!-- 变更信息 action -->
+
+
+	<!-- 配置信息 action -->
+    <bean class="com.uics.asset.consumer.CiDemoAction" init-method="start">
+        <property name="ciService" ref="ciService"/>
+    </bean>
+    <!-- 配置信息 action -->
+
+
+	<!-- 属性信息 action -->
+    <bean class="com.uics.asset.consumer.AttributeDemoAction" init-method="start">
+        <property name="attributeService" ref="attributeService"/>
+    </bean>
+    <!-- 属性信息 action -->
+
+
+	<!-- 事务信息 action -->
+    <bean class="com.uics.asset.consumer.CmdbTxDemoAction" init-method="start">
+        <property name="cmdbTxService" ref="cmdbTxService"/>
+    </bean>
+    <!-- 事务信息 action -->
+
+
+	<!-- 变更信息 action -->
+    <bean class="com.uics.asset.consumer.RfcDemoAction" init-method="start">
+        <property name="rfcService" ref="rfcService"/>
+    </bean>
+    <!-- 变更信息 action -->
+
 </beans>

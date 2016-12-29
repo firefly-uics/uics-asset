@@ -33,4 +33,9 @@
     <dubbo:reference id="rfcService" interface="com.uics.asset.service.RfcService"/>
     <!-- 变更信息 service -->
 
+
+	<!-- 配置信息 service -->
+    <dubbo:reference id="iService" interface="com.uics.asset.service.IService"/>
+    <!-- 配置信息 service -->
+
 </beans>
